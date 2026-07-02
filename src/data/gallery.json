@@ -1,0 +1,67 @@
+[
+  {
+    "id": "gal-1",
+    "title": "Annual Inspection Parade",
+    "category": "Parades",
+    "type": "image",
+    "src": "/images/gallery/parade-1.svg",
+    "alt": "Cadets in formation during annual inspection parade"
+  },
+  {
+    "id": "gal-2",
+    "title": "Remembrance Day March",
+    "category": "Parades",
+    "type": "image",
+    "src": "/images/gallery/parade-2.svg",
+    "alt": "Cadets marching with wreaths on Remembrance Day"
+  },
+  {
+    "id": "gal-3",
+    "title": "Summer Camp — Sailing",
+    "category": "Camps",
+    "type": "image",
+    "src": "/images/gallery/camp-1.svg",
+    "alt": "Cadets learning sailing skills at summer camp"
+  },
+  {
+    "id": "gal-4",
+    "title": "Field Camp Bivouac",
+    "category": "Camps",
+    "type": "image",
+    "src": "/images/gallery/camp-2.svg",
+    "alt": "Cadets setting up bivouac shelters at field camp"
+  },
+  {
+    "id": "gal-5",
+    "title": "Rifle Drill Practice",
+    "category": "Drills",
+    "type": "image",
+    "src": "/images/gallery/drill-1.svg",
+    "alt": "Cadets practising rifle drill movements"
+  },
+  {
+    "id": "gal-6",
+    "title": "Cutlass Drill Display",
+    "category": "Drills",
+    "type": "image",
+    "src": "/images/gallery/drill-2.svg",
+    "alt": "Senior cadets performing cutlass drill display"
+  },
+  {
+    "id": "gal-7",
+    "title": "Flag Ceremony Highlights",
+    "category": "Parades",
+    "type": "video",
+    "src": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+    "alt": "Video highlights from the flag raising ceremony",
+    "thumbnail": "/images/gallery/parade-1.svg"
+  },
+  {
+    "id": "gal-8",
+    "title": "Navigation Training",
+    "category": "Camps",
+    "type": "image",
+    "src": "/images/gallery/camp-3.svg",
+    "alt": "Cadets using charts during navigation training"
+  }
+]

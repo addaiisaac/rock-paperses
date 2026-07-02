@@ -1,0 +1,83 @@
+[
+  {
+    "id": "res-1",
+    "title": "Naval Ranks & Insignia Guide",
+    "description": "Comprehensive reference for officer and rating ranks, badges, and saluting etiquette.",
+    "badge": "Reference",
+    "category": "Naval Knowledge",
+    "url": "/documents/naval-ranks.pdf",
+    "action": "download"
+  },
+  {
+    "id": "res-2",
+    "title": "Ship Terminology Handbook",
+    "description": "Essential nautical terms for deck, rigging, and compartment identification aboard ship.",
+    "badge": "Study Guide",
+    "category": "Naval Knowledge",
+    "url": "/documents/ship-terms.pdf",
+    "action": "view"
+  },
+  {
+    "id": "res-3",
+    "title": "Rules of the Road at Sea",
+    "description": "International regulations for preventing collisions — lights, signals, and right of way.",
+    "badge": "Safety",
+    "category": "Naval Knowledge",
+    "url": "/documents/rules-of-road.pdf",
+    "action": "download"
+  },
+  {
+    "id": "res-4",
+    "title": "Basic Drill Commands",
+    "description": "Standard verbal commands, responses, and movements for squad drill on parade.",
+    "badge": "Drill Manual",
+    "category": "Drill & Ceremonies",
+    "url": "/documents/drill-commands.pdf",
+    "action": "view"
+  },
+  {
+    "id": "res-5",
+    "title": "Ceremonial Flag Protocol",
+    "description": "Procedures for raising, lowering, and folding the ensign during ceremonies.",
+    "badge": "Ceremony",
+    "category": "Drill & Ceremonies",
+    "url": "/documents/flag-protocol.pdf",
+    "action": "download"
+  },
+  {
+    "id": "res-6",
+    "title": "Guard Mounting Sequence",
+    "description": "Step-by-step guard mounting drill for ceremonial occasions and inspections.",
+    "badge": "Advanced",
+    "category": "Drill & Ceremonies",
+    "url": "/documents/guard-mounting.pdf",
+    "action": "view"
+  },
+  {
+    "id": "res-7",
+    "title": "CPR & Basic Life Support",
+    "description": "Emergency first aid procedures including CPR, recovery position, and AED use.",
+    "badge": "First Aid",
+    "category": "First Aid & Survival",
+    "url": "/documents/cpr-guide.pdf",
+    "action": "download"
+  },
+  {
+    "id": "res-8",
+    "title": "Sea Survival Techniques",
+    "description": "Man overboard recovery, life raft deployment, and cold-water survival principles.",
+    "badge": "Survival",
+    "category": "First Aid & Survival",
+    "url": "/documents/sea-survival.pdf",
+    "action": "view"
+  },
+  {
+    "id": "res-9",
+    "title": "Field Dressings & Wound Care",
+    "description": "Field treatment of bleeding, burns, and fractures in field conditions.",
+    "badge": "Medical",
+    "category": "First Aid & Survival",
+    "url": "/documents/field-dressings.pdf",
+    "action": "download"
+  }
+]
