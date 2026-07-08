@@ -55,6 +55,8 @@ public/
 
 ## Getting Started
 
+> **New to web development?** Read **[GETTING_STARTED.md](./GETTING_STARTED.md)** for a full beginner walkthrough (install Node.js, download the folder, run the site).
+
 ```bash
 npm install
 npm run dev
