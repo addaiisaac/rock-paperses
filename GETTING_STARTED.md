@@ -142,6 +142,41 @@ Open `src/data/announcements.json` and edit the `"message"` text. Save the file.
 
 ## Common problems
 
+### Windows: `npm.ps1 cannot be loaded because running scripts is disabled`
+
+This happens in **PowerShell** on Windows. Node.js is installed correctly — PowerShell is just blocking the `npm` command.
+
+**Fix 1 — Use Command Prompt instead (easiest):**
+
+1. Press the Windows key, type `cmd`, and open **Command Prompt** (not PowerShell)
+2. Go to your project folder:
+   ```bash
+   cd Documents\navy-cadet-website
+   ```
+   (Change the path to wherever you saved the folder.)
+3. Run:
+   ```bash
+   npm install
+   npm run dev
+   ```
+
+**Fix 2 — Allow scripts for your user only (PowerShell):**
+
+1. Open **PowerShell** (not as admin needed)
+2. Run this once:
+   ```powershell
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+3. Type `Y` and press Enter when asked
+4. Close and reopen the terminal, then try `npm install` again
+
+**Fix 3 — Use npm.cmd in PowerShell (no policy change):**
+
+```powershell
+npm.cmd install
+npm.cmd run dev
+```
+
 ### "npm is not recognized"
 → Node.js is not installed. Install from https://nodejs.org and restart your computer.
 
