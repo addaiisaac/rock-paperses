@@ -40,12 +40,23 @@ Pick **one** of these methods:
 
 ### Option A: Download as ZIP (easiest for beginners)
 
-1. Open: https://github.com/addaiisaac/rock-paperses
-2. Click the green **Code** button
-3. Click **Download ZIP**
-4. Unzip the file (right-click → Extract)
-5. Rename the folder to something simple, e.g. `navy-cadet-website`
-6. Move it somewhere easy to find, e.g. `Documents/navy-cadet-website`
+**Important:** The website code is on a specific branch, not the default `main` branch.
+If you download the wrong ZIP, you will only get a README file and `npm install` will fail.
+
+1. Open this link directly (correct branch with all the code):
+   **https://github.com/addaiisaac/rock-paperses/archive/refs/heads/cursor/navy-cadet-website-4910.zip**
+2. The ZIP will download (may be named `rock-paperses-cursor-navy-cadet-website-4910.zip`)
+3. Right-click the ZIP → **Extract All**
+4. You will get a folder named `rock-paperses-cursor-navy-cadet-website-4910`
+5. Rename it to `navy-cadet-website` if you like (optional)
+6. Move it somewhere easy to find, e.g. `Documents\navy-cadet-website`
+
+**Check you have the right folder** — open it and you should see:
+- `package.json` ✓
+- `src` folder ✓
+- `public` folder ✓
+
+If you only see `README.md`, you downloaded the wrong branch. Use the link above.
 
 ### Option B: Clone with Git (if you use GitHub)
 
@@ -141,6 +152,39 @@ Open `src/data/announcements.json` and edit the `"message"` text. Save the file.
 ---
 
 ## Common problems
+
+### `ENOENT` / `Could not read package.json` / `no such file or directory`
+
+This means you are in the **wrong folder**, or you downloaded the **wrong ZIP**.
+
+**Step 1 — Check your folder has the project files:**
+
+Open Command Prompt and run (change the path to match yours):
+
+```bash
+cd C:\Users\ADDAI ISAAC\Downloads\rock-paperses-cursor-navy-cadet-website-4910
+dir
+```
+
+You **must** see `package.json` in the list. If you don't, you're in the wrong place.
+
+**Common mistakes:**
+
+| Problem | Fix |
+|---------|-----|
+| Downloaded default `main` branch ZIP | Only has README. Re-download from the correct link in Step 1 above |
+| Inside a subfolder that doesn't exist | Don't create `navy-cadet-website` inside the ZIP folder. `cd` into the extracted folder directly |
+| Renamed or moved files incorrectly | Re-extract the ZIP and use that folder as-is |
+
+**Step 2 — Run npm from the folder that contains `package.json`:**
+
+```bash
+cd C:\Users\ADDAI ISAAC\Downloads\rock-paperses-cursor-navy-cadet-website-4910
+npm install
+npm run dev
+```
+
+**Tip:** In Command Prompt, you can type `cd ` then drag the folder from File Explorer into the terminal — it will paste the full path for you.
 
 ### Windows: `npm.ps1 cannot be loaded because running scripts is disabled`
 
