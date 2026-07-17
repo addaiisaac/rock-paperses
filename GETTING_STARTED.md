@@ -153,6 +153,68 @@ Open `src/data/announcements.json` and edit the `"message"` text. Save the file.
 
 ## Common problems
 
+### Browser shows an error when opening http://localhost:3000
+
+Your server **did start correctly** if you see `✓ Ready` in Command Prompt. The problem is usually the browser or the first page still loading.
+
+**Check these in order:**
+
+**1. Use the correct address (very common mistake)**
+
+Type exactly this in the browser address bar:
+```
+http://localhost:3000
+```
+
+- Use **`http://`** — NOT `https://`
+- Do **not** use the `Network: http://10.x.x.x:3000` address unless you know you need it
+
+Alternative that often works better on Windows:
+```
+http://127.0.0.1:3000
+```
+
+**2. Keep Command Prompt open**
+
+If you close the black Command Prompt window, the website stops. Leave it open while you browse.
+
+**3. Wait on first load (especially in Downloads folder)**
+
+The first time you open the site, the terminal may show:
+```
+○ Compiling / ...
+✓ Compiled / in 30s
+```
+
+**Wait until you see `✓ Compiled`** before refreshing the browser. On a slow PC this can take 1–3 minutes.
+
+**4. If the page is blank or spinning**
+
+- Wait 2 minutes
+- Press `Ctrl + Shift + R` to hard-refresh
+- Check the Command Prompt for red error text
+
+**5. If you see a red error box in the browser**
+
+That is a code error screen. Copy or screenshot the **red error message** and ask for help.
+
+**6. If browser says "This site can't be reached"**
+
+- Make sure `npm run dev` is still running
+- Stop it with `Ctrl + C`, then start again:
+  ```bash
+  npm run dev
+  ```
+- Wait for `✓ Ready`, then open `http://127.0.0.1:3000`
+
+**7. Move project out of Downloads (helps speed and stability)**
+
+Move the whole folder to:
+```
+C:\Users\ADDAI ISAAC\Documents\navy-cadet-website
+```
+Then open Command Prompt there and run `npm run dev` again.
+
 ### `ENOENT` / `Could not read package.json` / `no such file or directory`
 
 This means you are in the **wrong folder**, or you downloaded the **wrong ZIP**.
