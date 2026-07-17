@@ -1,0 +1,23 @@
+[
+  {
+    "id": "lead-1",
+    "name": "Lt. Cdr. James Harrington",
+    "rank": "Lieutenant Commander",
+    "role": "Commanding Officer",
+    "bio": "Oversees unit operations, training standards, and liaison with the regional naval authority. 18 years of service."
+  },
+  {
+    "id": "lead-2",
+    "name": "PO Sarah Mitchell",
+    "rank": "Petty Officer",
+    "role": "Training Officer",
+    "bio": "Leads weekly drill sessions, seamanship training, and cadet advancement programmes."
+  },
+  {
+    "id": "lead-3",
+    "name": "CPO Michael O'Brien",
+    "rank": "Chief Petty Officer",
+    "role": "Drill Instructor",
+    "bio": "Specialises in ceremonial drill, parade commands, and competition preparation."
+  }
+]

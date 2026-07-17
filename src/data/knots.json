@@ -1,0 +1,131 @@
+[
+  {
+    "id": "knot-bowline",
+    "name": "Bowline",
+    "description": "Forms a fixed loop at the end of a rope. Essential for mooring and rescue operations.",
+    "difficulty": "Beginner",
+    "imagePlaceholder": "/images/knots/bowline.svg",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Form a small loop near the end of the rope, leaving a long working end (the 'tail')."
+      },
+      {
+        "step": 2,
+        "instruction": "Pass the tail up through the loop from underneath."
+      },
+      {
+        "step": 3,
+        "instruction": "Wrap the tail around the standing part of the rope (behind the loop)."
+      },
+      {
+        "step": 4,
+        "instruction": "Pass the tail back down through the loop from the top."
+      },
+      {
+        "step": 5,
+        "instruction": "Tighten by pulling the standing part and the loop in opposite directions."
+      }
+    ]
+  },
+  {
+    "id": "knot-clove-hitch",
+    "name": "Clove Hitch",
+    "description": "Quick attachment knot for securing a rope to a post, spar, or ring.",
+    "difficulty": "Beginner",
+    "imagePlaceholder": "/images/knots/clove-hitch.svg",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Wrap the rope around the post once, crossing over the standing part."
+      },
+      {
+        "step": 2,
+        "instruction": "Wrap around the post a second time, crossing above the first wrap."
+      },
+      {
+        "step": 3,
+        "instruction": "Pass the tail under the second wrap and pull tight."
+      },
+      {
+        "step": 4,
+        "instruction": "Add a half hitch with the tail for extra security if the load is variable."
+      }
+    ]
+  },
+  {
+    "id": "knot-reef",
+    "name": "Reef Knot (Square Knot)",
+    "description": "Joins two ropes of equal diameter. Used for reefing sails and securing bundles.",
+    "difficulty": "Beginner",
+    "imagePlaceholder": "/images/knots/reef-knot.svg",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Hold one rope in each hand. Cross the right over the left and tie a half knot."
+      },
+      {
+        "step": 2,
+        "instruction": "Cross the left over the right and tie a second half knot."
+      },
+      {
+        "step": 3,
+        "instruction": "Ensure both parts exit on the same side — both standing parts on top, both tails on bottom."
+      },
+      {
+        "step": 4,
+        "instruction": "Pull all four ends simultaneously to tighten evenly."
+      }
+    ]
+  },
+  {
+    "id": "knot-round-turn",
+    "name": "Round Turn and Two Half Hitches",
+    "description": "Reliable mooring knot that maintains tension under load.",
+    "difficulty": "Intermediate",
+    "imagePlaceholder": "/images/knots/round-turn.svg",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Pass the rope twice around the bollard or ring (round turn)."
+      },
+      {
+        "step": 2,
+        "instruction": "Pass the tail over the standing part to form a half hitch."
+      },
+      {
+        "step": 3,
+        "instruction": "Form a second half hitch below the first, in the same direction."
+      },
+      {
+        "step": 4,
+        "instruction": "Pull the standing part to take up slack, then tighten both hitches."
+      }
+    ]
+  },
+  {
+    "id": "knot-figure-eight",
+    "name": "Figure-Eight Knot",
+    "description": "Stopper knot that prevents a rope from running through a block or fairlead.",
+    "difficulty": "Beginner",
+    "imagePlaceholder": "/images/knots/figure-eight.svg",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Form a loop by crossing the tail over the standing part."
+      },
+      {
+        "step": 2,
+        "instruction": "Pass the tail under the standing part and up through the loop."
+      },
+      {
+        "step": 3,
+        "instruction": "The finished knot should resemble the numeral 8."
+      },
+      {
+        "step": 4,
+        "instruction": "Dress the knot by tightening each turn evenly."
+      }
+    ]
+  }
+]
