@@ -1,4 +1,4 @@
-# Traffic light control — build helpers
+# Traffic light control - build helpers
 
 ASM = nasm
 LD  = ld

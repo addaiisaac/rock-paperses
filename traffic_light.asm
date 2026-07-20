@@ -1,5 +1,5 @@
 ; =============================================================================
-; traffic_light.asm  —  Simple traffic light controller (x86-64 Linux / NASM)
+; traffic_light.asm  -  Simple traffic light controller (x86-64 Linux / NASM)
 ; =============================================================================
 ; WHAT THIS PROGRAM DOES
 ;   Simulates a traffic light in the Ubuntu terminal:

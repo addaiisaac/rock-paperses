@@ -6,7 +6,7 @@ A beginner-friendly **x86-64 NASM** program that simulates a traffic light in th
 
 | Idea | In this project |
 |------|-----------------|
-| Program loop | Lights cycle forever: Red → Green → Yellow → Red… |
+| Program loop | Lights cycle forever: Red -> Green -> Yellow -> Red… |
 | System calls | `write` (print) and `nanosleep` (wait) |
 | Registers | `rax`, `rdi`, `rsi`, `rdx` used for syscalls |
 | Data section | Messages and delay times stored in `.data` |
@@ -25,9 +25,9 @@ Controller repeats          jmp .loop
 
 Timing used here (easy to change in the `.data` section):
 
-- **RED** — 3 seconds (stop)
-- **GREEN** — 3 seconds (go)
-- **YELLOW** — 1 second (caution)
+- **RED** - 3 seconds (stop)
+- **GREEN** - 3 seconds (go)
+- **YELLOW** - 1 second (caution)
 
 ## Requirements (Ubuntu)
 
@@ -36,8 +36,8 @@ sudo apt update
 sudo apt install nasm binutils
 ```
 
-- `nasm` — assembler (turns `.asm` into an object file)
-- `ld` — linker (turns the object file into an executable)
+- `nasm` - assembler (turns `.asm` into an object file)
+- `ld` - linker (turns the object file into an executable)
 
 ## Build and run
 
@@ -89,19 +89,19 @@ syscall
 
 ANSI codes change text color, for example:
 
-- `ESC[1;31m` — bold red  
-- `ESC[1;32m` — bold green  
-- `ESC[1;33m` — bold yellow  
-- `ESC[0m` — reset  
+- `ESC[1;31m` - bold red  
+- `ESC[1;32m` - bold green  
+- `ESC[1;33m` - bold yellow  
+- `ESC[0m` - reset  
 
 In the `.asm` file, `27` is the ESC character.
 
 ## Try these class exercises
 
-1. Change RED to stay **5 seconds** — edit `delay_red`.
-2. Swap the order to Red → Yellow → Green (some countries use that).
+1. Change RED to stay **5 seconds** - edit `delay_red`.
+2. Swap the order to Red -> Yellow -> Green (some countries use that).
 3. Add a fourth state: **blinking yellow** (print, short sleep, clear, short sleep, repeat a few times).
-4. Build a **two-way intersection**: North–South green while East–West red, then switch.
+4. Build a **two-way intersection**: North-South green while East-West red, then switch.
 
 ## Clean up
 
@@ -109,10 +109,18 @@ In the `.asm` file, `27` is the ESC character.
 make clean
 ```
 
-## Files
+## Shareable documents (send these to someone)
+
+| File | Purpose |
+|------|---------|
+| `Traffic_Light_Assembly_Guide.pdf` | **Best for sharing** - full guide + source code as PDF |
+| `Traffic_Light_Assembly_Guide.html` | Same guide - open in any browser (Print -> Save as PDF also works) |
+
+## Project files
 
 | File | Purpose |
 |------|---------|
 | `traffic_light.asm` | Main assembly source (read the comments!) |
 | `Makefile` | Build / clean shortcuts |
-| `README.md` | This guide |
+| `README.md` | This short guide |
+| `generate_guide_pdf.py` | Rebuilds the PDF if you edit the project |
